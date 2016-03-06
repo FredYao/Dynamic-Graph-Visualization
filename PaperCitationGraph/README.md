@@ -7,13 +7,12 @@ In order to make the citation data flow into Gephi's workspace in a real-time fa
 we have converted the XML-based data into a set of edge streams and then store them in a plain text file (http://www.eecs.wsu.edu/~yyao/DirectedStudyII/Data/Citation_Stream).
 
 
+
 --------------------------------------------------------------------------------------------------------------------------
+Instructions for how to run the scripts:
 
-Instructions for how to run the scripts.
 
-
----------------------------------------
-Install Gephi and the Streaming Plugin
+A. Install Gephi and the Streaming Plugin
 
 1. Download the proper version of Gephi from https://gephi.org/users/download/
 2. Install Gephi on your machine
@@ -22,9 +21,7 @@ Install Gephi and the Streaming Plugin
 5. Restart Gephi, check if there is a 'Streaming' tab on the left panel 
 
 
-
-----------------
-Citation Network
+B. Citation Network
 
 1. Make sure the modules DataLoader.py, GephiJsonClient.py and CitationStream.py, and the data file Citation_Stream are in the same directory
 2. Open Gephi and create a new project
