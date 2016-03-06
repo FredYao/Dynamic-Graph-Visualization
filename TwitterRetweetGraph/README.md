@@ -1,3 +1,6 @@
+On Twitter, a retweet is a re-posting of someone else's tweet to make it shared with the public. Among the huge volume of tweets generated per second on Twitter, a large part of them are retweets. In this project, we focus on the retweets regarding certain given topics (or hashtags) in Twitter's public streams. By accessing Twitter's Streaming API through Tweepy, we are able to retrieve all retweets with respect to certain specified topics (or hashtags) from the real-time public streams. Each retweet has the author who did the re-posting and the user who wrote the original tweet, which can imply a retweet-relation between the author and the original user. So in the retweet network, the nodes are used to represent the users on Twitter with the usernames being the unique identifiers. And the edges are used to denote retweet-relations between them. If a user i re-posted another user j's tweet, there will be a directed edge pointing from node i to node j in the retweet network.
+
+
 ---------------------------------------
 Instructions for how to run the scripts.
 
